@@ -67,3 +67,16 @@ footer  {
 		            text-align: center;
 		            font-size: 20px;
 	              }
+
+
+/*TODO CONTACTO.HTML */
+/*type para la clase contacto  hecha para el contenido dentro de la etiqueta section de contacto.html*/
+.contacto {
+		    text-align: center;
+			font-size: 15px;
+		  }
+		  /*id correo hecha para el correo de la etiqueta section para el contenido*/
+		  #correo  {
+		  		     color:#B0C1E3;
+		 		   }
+     
