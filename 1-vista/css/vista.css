@@ -79,4 +79,16 @@ footer  {
 		  #correo  {
 		  		     color:#B0C1E3;
 		 		   }
-     
+
+
+/*TODO INICIO.HTML */
+/*type para la clase cerrar hecha para cerrar sesión de inicio.html*/
+.cerrar	{
+  		  text-align: right;
+		  font-size: 17px;
+		  color: red;
+	    }
+	    /*type para la clase icon-cancel-squared hecha par el icono de cerrar sesión*/
+		.icon-cancel-squared  {
+							    color: #B0C1E3 ;
+							  }
