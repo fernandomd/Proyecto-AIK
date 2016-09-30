@@ -1,0 +1,48 @@
+
+/*TODO EN GENERAL*/
+/*type para todos los textos que tengan la etiqueta h2*/
+h2  {
+	  text-align: center;
+    }
+
+
+h3  {
+	  text-align: center;
+    }
+   
+/*type para la clase titulo-Encabezado hecha para todos encabezados de las paginas*/	
+.titulo-Encabezado {
+				     text-align: center;
+					 font-size: 15px;
+	  			   }
+
+/*type para la clase menu hecha para todos los nav de las paginas*/
+.menu  {
+	     text-align: center;
+		 font-size: 17px;
+	   }
+
+/*pie de pagina para todas las paginas*/
+footer  {
+    	  position: relative;
+		  background:black;
+		  color:white;
+		  clear:both;
+		  padding: 2px 0px;
+		  margin-top: 30%;
+		}
+		.copy  {
+	   		    text-align: center;
+              }
+
+	   .pie   {
+			    text-align: center;
+			  }
+
+			  
+/*TODO BLOG.HTML */	  
+/*type para la clase imagen hecha para las imagenes de blog.html*/
+.imagen  {
+	       display:block;
+	       margin:auto;
+         }

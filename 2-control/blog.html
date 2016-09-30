@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blog</title>
+	<link rel="stylesheet" type="text/css" href="../0-bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../1-vista/css/fontello.css">
+  <link rel="stylesheet" type="text/css" href="../1-vista/css/vista.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+    <div class="container-fluid">
+          <div class="panel panel-primary">
+              <div class="panel-heading">
+                <div class="titulo-Encabezado">
+                  <h2 class="icon-blogger"> Blog</h2><br>
+                </div>
+              </div>
+                <nav>
+                  <br>
+                  <aside>
+                    <p class="menu">
+                      <a href="inicio.html" class="icon-home"> Inicio</a>
+                      <a href="tecnologia.html" class="icon-cab"> Tecnología</a>
+                      <a href="servicios.html" class="icon-server"> Servicios</a>
+                      <a href="contacto.html" class="icon-users"> Contacto</a>
+                      <a href="multimedia.html" class="icon-music"> Multimedia</a>
+                    </p>
+                  </aside>
+                </nav>
+                <div class="container-fluid">
+              <!-- funcion para que al dar clic en el texto aparezca y desaparezca el contenido -->
+                    <!-- en la etiqueta script vamos a insertar una funcion en javascript -->
+                    <script>
+                    // se crea una funcion llamada mostrar que me va a obtener los id>
+                     function mostrar(id) { 
+                        //se crea una variable ver con un método que permite obtener la referencia del elemento auto motor y frenos mediante el id de dichos elementos.
+                        ver = document.getElementById(id);
+                        //para que el contenido del elemento serán invisibles, pero el elemento se mantiene en su posición y tamaño original.
+                        ver.style.visibility = (ver.style.visibility == 'hidden')? 'visible' : 'hidden';
+                      }
+                    </script>
+                    <br><br>
+                    <a href="#" onclick="mostrar('auto');">¿Que es un auto?</a>
+                        <div id="auto" style="visibility:hidden"><br>
+                          <p>El automóvil es un vehículo con <em><a href="https://books.google.com.co/books?id=wrQqoXfl1UwC&pg=PA296&lpg=PA296&dq=propulsi%C3%B3n+aut%C3%B3noma&source=bl&ots=ZytWbM78g9&sig=Q8Qol8G4bKJfmQzJmGaa5_rlUWY&hl=es-419&sa=X&ved=0ahUKEwjfzNeU57DPAhUCSiYKHdqbBeIQ6AEIIDAB#v=onepage&q=propulsi%C3%B3n%20aut%C3%B3noma&f=false">propulsión autónoma</a></em>
+                          <strong>impulsado por un motor de gasolina, diesel, gas, alcohol o eléctrico.</strong></p>
+                          <img src="../3-multimedia/auto.gif" class="imagen" alt="">
+                        </div>
+                      <a href="#" onclick="mostrar('motor');">¿Que es un motor?</a>
+                        <div id="motor" style="visibility:hidden"><br>
+                          <p>Un motor es un sistema material que transforma una determinada clase de energía (hidráulica, Química, eléctrica, etc.) <strong>en energía mecánica.</strong></p>
+                          <img src="../3-multimedia/motor.gif" class="imagen" alt=""><br>
+                        </div>
+                      <a href="#" onclick="mostrar('frenos');">¿Que son frenos ABS?</a>
+                        <div id="frenos" style="visibility:hidden"><br>
+                          <p>Es un sistema de frenado que evita que las <strong><em>ruedas se bloqueen y patinen al frenar,</em></strong> con lo que el vehículo no solamente decelera de manera óptima, sino que permanece estable y direccionable durante la frenada (podemos girar mientras frenamos).</p>
+                          <img src="../3-multimedia/frenos.gif" class="imagen" alt=""><br>
+                        </div>
+                </div>
+                <footer>
+                    <div class="piedepagina">
+                        <p class="copy">&copy; Autos AIK – Todos los derechos reservados – 2016</p>
+                        <p class="pie"><a href="contacto@aik.com">contacto@aik.com</a></p>
+                        <p class="pie"><strong>Popayán - Colombia</strong></p>
+                    </div> 
+                </footer>
+          </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
+	
