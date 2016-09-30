@@ -46,3 +46,11 @@ footer  {
 	       display:block;
 	       margin:auto;
          }
+
+
+/*TODO MULTIMEDIA.HTML */
+/*type para la clase link-Videos hecha para los videos de multimedia.html*/
+.link-Videos  {
+	            width: 400px;
+	            margin: 10px auto;
+			  }
